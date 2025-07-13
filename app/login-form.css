@@ -1,0 +1,88 @@
+.login-container {
+  padding: 2rem;
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  max-width: 28rem !important;
+  min-width: 28rem !important;
+  max-height: max-content;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: hsl(215, 25%, 27%);
+}
+
+.input-container {
+  position: relative;
+}
+
+.input-icon {
+  position: absolute;
+  left: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 1.25rem;
+  width: 1.25rem;
+  color: hsl(215, 16%, 56%);
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.5rem 1rem 0.5rem 2.5rem;
+  border: 1px solid hsl(214, 32%, 91%);
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  transition: all 0.2s ease;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: hsl(215, 25%, 27%);
+  box-shadow: 0 0 0 2px hsl(215, 25%, 27%, 0.2);
+}
+
+.error-message {
+  font-size: 0.75rem;
+  color: hsl(0, 84%, 60%);
+}
+
+.submit-button {
+  width: 100%;
+  padding: 0.625rem 1rem;
+  background: hsl(215, 25%, 27%);
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.submit-button:hover:not(:disabled) {
+  background: hsl(215, 25%, 22%);
+}
+
+.submit-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px hsl(215, 25%, 27%, 0.2);
+}
+
+.submit-button:disabled {
+  background: hsl(215, 16%, 56%);
+  cursor: not-allowed;
+} 
