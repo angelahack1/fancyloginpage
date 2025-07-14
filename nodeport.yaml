@@ -19,7 +19,7 @@ spec:
       - name: fancyloginpage
         image: fancyloginpage:1.0
         env:
-        - name: PUNTO_DE_VENTA_SERVICE_PORT
+        - name: FANCYLOGINPAGE_SERVICE_PORT
           value: "31100"
         ports:
         - containerPort: 31100
