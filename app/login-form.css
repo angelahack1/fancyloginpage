@@ -6,6 +6,7 @@
   max-width: 28rem !important;
   min-width: 28rem !important;
   max-height: max-content;
+  background: linear-gradient(358deg, hsl(257deg 6.94% 59.83%) 0%, hsl(214, 32%, 91%) 100%);
 }
 
 .login-form {
@@ -21,9 +22,9 @@
 }
 
 .form-label {
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: hsl(215, 25%, 27%);
+  font-size: 1.3rem;
+  color: black;
+  font-weight: 600;
 }
 
 .input-container {
@@ -41,7 +42,7 @@
 }
 
 .form-input {
-  width: 100%;
+  width: 88%;
   padding: 0.5rem 1rem 0.5rem 2.5rem;
   border: 1px solid hsl(214, 32%, 91%);
   border-radius: 0.5rem;

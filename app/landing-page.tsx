@@ -19,8 +19,8 @@ export function LandingPage() {
         <div className="nav-container">
           {/* Logo */}
           <Link href="/" className="nav-logo">
-            <Home size={24} />
-            <span>LePago</span>
+            <Home size={48} stroke="black"/>
+            <span className="text-black-bolded">LePago</span>
           </Link>
 
           {/* Mobile Menu Toggle */}

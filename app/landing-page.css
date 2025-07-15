@@ -1,11 +1,12 @@
 .landing-page {
+  justify-items: center;
   display: inline-block;
   min-height: 100vh;
-  background: linear-gradient(135deg, hsl(210, 40%, 98%) 0%, hsl(214, 32%, 91%) 100%);
+  background: linear-gradient(358deg, hsl(257deg 6.94% 59.83%) 0%, hsl(214, 32%, 91%) 100%);
 }
 
 .navbar {
-  background: white;
+  background: rgb(188, 115, 210);
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
   border-bottom: 1px solid hsl(214, 32%, 91%);
   padding: 1rem 2rem;
@@ -13,6 +14,7 @@
   top: 0;
   z-index: 100;
   width: max-content;
+  border-radius: 10px;
 }
 
 .nav-container {
@@ -51,10 +53,10 @@
 }
 
 .nav-link {
-  color: hsl(215, 16%, 56%);
+  color: hsl(215deg 24.67% 22.01%);
   text-decoration: none;
-  font-size: 0.875rem;
-  font-weight: 500;
+  font-size: medium;
+  font-weight: 700;
   padding: 0.5rem 0;
   transition: color 0.2s ease;
   position: relative;
@@ -86,9 +88,9 @@
 }
 
 .nav-button {
+  display: flex;
   padding: 0.5rem 1rem;
-  border: 1px solid hsl(214, 32%, 91%);
-  background: white;
+  background: #cfd3dc;
   color: hsl(215, 25%, 27%);
   border-radius: 0.5rem;
   font-size: 0.875rem;
@@ -203,4 +205,14 @@
 .section-text {
   color: hsl(215, 16%, 56%);
   line-height: 1.6;
+}
+
+.text-black-bolded {
+  color: black;
+  font-weight: 800;
+}
+
+.scaled-path {
+  transform: scale(2);
+  transform-origin: center; 
 }

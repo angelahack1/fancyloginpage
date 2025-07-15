@@ -54,9 +54,8 @@
 }
 
 * {
-  box-sizing: border-box;
   padding: 0;
-  margin: 3px;
+  margin: 5px;
 }
 
 html,
@@ -67,7 +66,7 @@ body {
 
 body {
   color: hsl(var(--foreground));
-  background: hsl(var(--background));
+  background: black;
 }
 
 a {
