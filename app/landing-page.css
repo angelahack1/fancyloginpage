@@ -13,12 +13,11 @@
   position: sticky;
   top: 0;
   z-index: 100;
-  width: max-content;
   border-radius: 10px;
 }
 
 .nav-container {
-  max-width: 1200px;
+  max-width: max-content;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -89,7 +88,7 @@
 
 .nav-button {
   display: flex;
-  padding: 0.5rem 1rem;
+  padding-right: 8px;
   background: #cfd3dc;
   color: hsl(215, 25%, 27%);
   border-radius: 0.5rem;
@@ -98,6 +97,7 @@
   text-decoration: none;
   transition: all 0.2s ease;
   cursor: pointer;
+  min-width: max-content;
 }
 
 .nav-button:hover {
