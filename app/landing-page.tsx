@@ -58,18 +58,18 @@ export function LandingPage() {
 
           {/* Navigation Actions */}
           <div className="nav-actions">
-            <a href="#" className="nav-button">
+            <Link href="/profile" className="hidden nav-button">
               <User size={16} />
               <span>Profile</span>
-            </a>
+            </Link>
             <Link href="/login" className="nav-button primary">
               <LogIn size={16} />
               <span>Sign In</span>
             </Link>
-            <a href="#" className="nav-button">
+            <Link href="/signup" className="nav-button primary">
               <UserPlus size={16} />
               <span>Sign Up</span>
-            </a>
+            </Link>
           </div>
         </div>
       </nav>
