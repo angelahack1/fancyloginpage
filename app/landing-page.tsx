@@ -19,8 +19,8 @@ export function LandingPage() {
         <div className="nav-container">
           {/* Logo */}
           <Link href="/" className="nav-logo">
-            <Home size={48} stroke="black"/>
-            <span className="text-black-bolded">LePago</span>
+            <img className="nav-logo-icon" src="bill.png" width="106" height="106" alt="Bill Receipt icon" title="Bill Receipt icon" />
+            <span className="nav-logo-text text-black-bolded">LePago</span>
           </Link>
 
           {/* Mobile Menu Toggle */}
@@ -58,17 +58,9 @@ export function LandingPage() {
 
           {/* Navigation Actions */}
           <div className="nav-actions">
-            <Link href="/profile" className="hidden nav-button">
-              <User size={16} />
-              <span>Profile</span>
-            </Link>
             <Link href="/login" className="nav-button primary">
               <LogIn size={16} />
-              <span>Sign In</span>
-            </Link>
-            <Link href="/signup" className="nav-button primary">
-              <UserPlus size={16} />
-              <span>Sign Up</span>
+              <span>Sign In/Up</span>
             </Link>
           </div>
         </div>
@@ -79,18 +71,7 @@ export function LandingPage() {
         <div className="content-section">
           <h1 className="section-title">Welcome to LePago</h1>
           <p className="section-text">
-            This is your beautiful landing page with a horizontal menu bar that matches 
-            the styling of your login page. The navigation includes a logo, menu items, 
-            and action buttons with the same color scheme and design language.
-          </p>
-        </div>
-
-        <div className="content-section">
-          <h2 className="section-title">Features</h2>
-          <p className="section-text">
-            The menu bar features responsive design, smooth hover effects, and mobile-friendly 
-            navigation. It uses the same color palette and styling as your login form for 
-            a consistent user experience.
+            Hi!, Welcome to LePago, the application that will allow you to buy and/or sell without complications, in a easy and fast way!
           </p>
         </div>
       </main>

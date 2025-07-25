@@ -2,36 +2,45 @@
   justify-items: center;
   display: inline-block;
   min-height: 100vh;
-  background: linear-gradient(358deg, hsl(257deg 6.94% 59.83%) 0%, hsl(214, 32%, 91%) 100%);
+  background: linear-gradient(90deg, hsl(257deg 10.17% 67.15%) 0%, hsl(214, 32%, 91%) 100%);
 }
 
 .navbar {
+  width: 98%;
   background: rgb(188, 115, 210);
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-  border-bottom: 1px solid hsl(214, 32%, 91%);
-  padding: 1rem 2rem;
+  padding: 0rem;
   position: sticky;
   top: 0;
   z-index: 100;
   border-radius: 10px;
+  background: linear-gradient(to right, #b16ebe, #bf96c9);
 }
 
 .nav-container {
-  max-width: max-content;
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  padding-right: 1rem;
 }
 
 .nav-logo {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
   font-size: 1.25rem;
   font-weight: 600;
   color: hsl(215, 25%, 27%);
   text-decoration: none;
+  padding-right: 10rem;
+  cursor: default;
+}
+
+.nav-logo-icon {
+  cursor: pointer;
+}
+
+.nav-logo-text {
+  cursor: pointer;
 }
 
 .nav-logo:hover {
@@ -41,10 +50,11 @@
 .nav-menu {
   display: flex;
   align-items: center;
-  gap: 2rem;
   list-style: none;
   margin: 0;
   padding: 0;
+  margin-left: 10px;
+  margin-right: 20px;
 }
 
 .nav-item {
@@ -52,9 +62,9 @@
 }
 
 .nav-link {
-  color: hsl(215deg 24.67% 22.01%);
+  color: black;
   text-decoration: none;
-  font-size: medium;
+  font-size: large;
   font-weight: 700;
   padding: 0.5rem 0;
   transition: color 0.2s ease;
@@ -66,12 +76,17 @@
 }
 
 .nav-link.active {
-  color: hsl(215, 25%, 27%);
+  text-decoration: underline;
+}
+
+.nav-link.active:hover {
+  text-decoration: underline;
+  color: black !important;
+  cursor: default;
 }
 
 .nav-link.active::after {
   content: '';
-  position: absolute;
   bottom: -1rem;
   left: 0;
   right: 0;
@@ -82,7 +97,7 @@
 
 .nav-actions {
   display: flex;
-  align-items: center;
+  align-items: end;
   gap: 1rem;
 }
 
@@ -210,6 +225,7 @@
 .text-black-bolded {
   color: black;
   font-weight: 800;
+  font-size: xx-large;
 }
 
 .scaled-path {
